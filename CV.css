@@ -1,0 +1,177 @@
+.navbar {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #24224b; 
+    position: sticky;
+    top: 0; 
+    width: 100%; 
+}
+
+.navbar li {
+    float: left; 
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #111; 
+}
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(16,16,103,1) 35%, rgba(30,30,33,1) 100%);
+    color: white;
+}
+
+img{
+    padding: 20px;
+}
+
+footer{
+    background-color: #24224b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+
+.container{
+    width: 800px;
+    height: auto;
+    display: flex;
+    margin: 50px auto;
+}
+
+.container .box-left{
+    width: 100%;
+    background-color: rgba(16,16,103,1);
+}
+
+.container .box-left .profile {
+    width: 100%;
+    width: 200px;
+    background-color: #24224b;
+}
+
+.container .box-left .profile img{
+    width: 100%;
+    height: 100%;
+}
+
+.container .box-left .content{
+    padding: 0 25px;
+}
+
+.container .resume-item{
+    padding: 25px 0;
+    border-bottom: 2px solid #24224b;
+}
+
+.container.title{
+    margin-bottom: 20px;
+}
+
+.container .box-left .bold1{
+    color: white;
+}
+
+.container .box-left .regular{
+    color: white;
+}
+
+.bold{
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.container.box-left ul li {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.container .box-left ul li:last-child{
+    margin-bottom: 0;
+}
+
+.container.box-left ul li .icon{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    color: #24224b;
+    border-radius: 50%;
+    margin-right: 15px;
+    font-size: 16px;
+    position: relative;
+}
+
+.container .box-left ul li .data{
+    color: white;
+}
+
+.title-skills{
+    text-align: center;
+}
+
+.container .box-left .resume-skills ul li{
+    display: flex;
+    margin-bottom: 10px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .box-left .resume-skills ul li .skill-name{
+    width: 25%;
+    text-align: center;
+}
+
+.container .box-left .resume-skills ul li .skill-progress{
+    width: 60%;
+    margin: 0 5px;
+    height: 5px;
+    background-color: #ff0000;
+    position: relative;
+}
+
+.container .box-left .resume-skills ul li .skill-progress span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: white;
+}
+.container .box-left .resume-skills ul li .skill-percent{
+    width: 5cm;
+}
+
+/*right box*/
+
+.container .box-right{
+    width: 1460px;
+    background-color: rgba(30,30,33,1);
+    padding: 25px;
+}
+.container .box-left .resume-item:last-child,
+.container .box-right .resume-item:last-child{
+    border-bottom: 0px;
+}
+
+.container .box-right .bold{
+    color: white;
+}

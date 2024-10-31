@@ -1,0 +1,127 @@
+.navbar {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #24224b; 
+    position: sticky;
+    top: 0; 
+    width: 100%; 
+}
+
+.navbar li {
+    float: left; 
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #111; 
+}
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(16,16,103,1) 35%, rgba(30,30,33,1) 100%);
+    color: white;
+    font-family: sans-serif;
+}
+
+footer {
+    background-color: #24224b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.about {
+    width: 100%;
+    padding: 78px 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(16,16,103,1) 35%, rgba(30,30,33,1) 100%);
+}
+
+.about img {
+    height: auto;
+    width: 420px;
+    position: relative;
+}
+
+.about-text {
+    width: 550px;
+}
+
+.main {
+    width: 1130px;
+    max-width: 100%; /* Diperbaiki dari 95px menjadi 100% atau ukuran lain */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h1 {
+    color: white;
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h5 {
+    color: white;
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+.span {
+    color: red;
+}
+
+.about-text p {
+    color: rgba(255, 255, 255, 0.8);
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+button {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+button:hover {
+    background: transparent;
+    border: 2px solid red;
+    cursor: pointer;
+}
